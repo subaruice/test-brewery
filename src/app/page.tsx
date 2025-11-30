@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useEffect } from "react";
 
 export default function Home() {
-    const { rendered, scrollNext, scrollPrev, loading, fetchBreweries, toggleRClick, selectedIDs, deleteIDs } =
+    const { rendered, scrollNext, loading, fetchBreweries, toggleRClick, selectedIDs, deleteIDs } =
         useBreweryStore();
 
     useEffect(() => {
